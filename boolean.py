@@ -1,0 +1,13 @@
+print("hello" .isalpha())
+print("3rd".isalnum())
+print("A Cold Stormy Night".istitle())
+print("1003".isdigit())
+cm_heught = "172"
+print("cm_height = ", cm_heught, "is all digits = " ,cm_heught.isdigit())
+print("SAVE".islower())
+print("SAVE".isupper())
+print("Boolean".startswith("B"))
+print("alphabetical" .isalpha())
+print("Are spaces and punctuations Alphabetical?".isalpha())
+alpha_test = input("enter your name: ")
+print("is the name alphabetical? = ",alpha_test.isalpha())
